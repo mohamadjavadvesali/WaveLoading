@@ -86,7 +86,7 @@ public class WaveDrawable extends Drawable implements Animatable, ValueAnimator.
         mMatrix.reset();
         mPaint = new Paint();
         mPaint.setFilterBitmap(false);
-        mPaint.setColor(Color.BLACK);
+        mPaint.setColor(Color.RED);
         mPaint.setXfermode(sXfermode);
 
         mWidth = mDrawable.getIntrinsicWidth();
